@@ -5,7 +5,6 @@ import ru.sbrf.atm.User;
 public class Account {
     private User user;
     private String mail;
-    private Authentication authentication;
 
     public Account(){
         this(new User(), "default@mail.ru");
@@ -22,10 +21,5 @@ public class Account {
     public Account(User user, String mail){
         this.user = user;
         this.mail = mail;
-        authentication = new Authentication(user, getCard(), null, null);
-    }
-
-    private String getCard(){
-        return "123";
     }
 }
