@@ -1,5 +1,10 @@
 package ru.sbrf.atm;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
 public class Atm {
     private static final int MAX;
     static {
@@ -14,10 +19,6 @@ public class Atm {
 
     public Atm(int attendance){
         this.attendance = attendance;
-    }
-
-    public int getAttendance(){
-        return attendance;
     }
 
     public boolean plusAttendance(){

@@ -1,5 +1,9 @@
 package ru.sbrf.atm;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
 public class User {
     private static final int MAX_AGE;
     static{
@@ -23,14 +27,6 @@ public class User {
     public User(String name, int age){
         this.name = name;
         this.age = age;
-    }
-
-    public String getName(){
-        return name;
-    }
-
-    public int getAge(){
-        return age;
     }
 
     public boolean birthday(){
