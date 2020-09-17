@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="org.projectlombok:lombok:1.18.12" level="project" />
+    <orderEntry type="library" name="org.springframework.boot:spring-boot:2.3.2.RELEASE" level="project" />
   </component>
 </module>

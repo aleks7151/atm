@@ -1,7 +1,10 @@
 package ru.sbrf.back_office;
 
+import org.springframework.stereotype.Component;
+
 import java.util.Map;
 
+@Component
 public class Client<P> {
     private Account account;
     private int solvency;

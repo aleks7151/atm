@@ -1,7 +1,9 @@
 package ru.sbrf.back_office;
 
+import org.springframework.stereotype.Component;
 import ru.sbrf.atm.User;
 
+@Component
 public class Account {
     private User user;
     private String mail;
