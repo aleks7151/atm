@@ -2,8 +2,10 @@ package ru.sbrf.atm;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.stereotype.Component;
 
 @Getter
+@Component
 public class User {
     private static final int MAX_AGE;
     static{

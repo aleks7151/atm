@@ -1,10 +1,12 @@
 package ru.sbrf.back_office;
 
+import org.springframework.stereotype.Component;
 import ru.sbrf.atm.User;
 
 import java.util.HashMap;
 import java.util.Map;
 
+@Component
 public class Authentication {
     private String numberCard;
     private String scanerFinger;

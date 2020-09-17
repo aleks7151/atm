@@ -1,7 +1,10 @@
 package ru.sbrf.back_office;
 
+import org.springframework.stereotype.Component;
+
 import static ru.sbrf.back_office.Currency.RUR;
 
+@Component
 public class Bank {
     private Client<String> client;
     private Currency currency;
